@@ -32,7 +32,7 @@ export default function Page() {
                   href="#blog"
                   className="hover:text-yellow-300 transition-colors"
                 >
-                  Blog
+                  Language Learning Blog
                 </a>
               </li>
               <li>
@@ -59,7 +59,7 @@ export default function Page() {
               size="lg"
               className="bg-yellow-400 text-blue-800 hover:bg-yellow-500"
             >
-              Get Started
+              Take your first step now!
             </Button>
           </div>
         </section>
@@ -67,7 +67,7 @@ export default function Page() {
         <section id="services" className="py-16">
           <div className="container mx-auto">
             <h2 className="text-3xl font-bold mb-8 text-center text-blue-800">
-              Our Services
+              Let&apos;s Learn Chinese Together!
             </h2>
             <div className="grid md:grid-cols-2 gap-8">
               <Card className="bg-white shadow-lg hover:shadow-xl transition-shadow">

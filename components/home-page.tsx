@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
+// import { Input } from "@/components/ui/input";
+// import { Textarea } from "@/components/ui/textarea";
 
 import {
   Card,
@@ -173,7 +173,7 @@ export default function Page() {
                 <Card key={index} className="bg-blue-50 shadow-lg">
                   <CardContent className="pt-6">
                     <p className="text-gray-700 italic mb-4">
-                      "{testimonial.quote}"
+                      &ldquo;{testimonial.quote}&rdquo;
                     </p>
                     <div className="flex items-center">
                       <div className="w-12 h-12 rounded-full bg-blue-200 flex items-center justify-center mr-4">

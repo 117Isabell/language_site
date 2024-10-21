@@ -46,3 +46,7 @@ To run this project locally, follow these steps:
 - [React](https://reactjs.org/) - JavaScript library for building user interfaces
 - [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework
 - [Shadcn UI](https://ui.shadcn.com/) - UI component library
+
+## Deployment
+
+The website is deployed and can be accessed at: [https://language-site-six.vercel.app/](https://language-site-six.vercel.app/)

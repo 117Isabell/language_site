@@ -1,7 +1,4 @@
 import { Button } from "@/components/ui/button";
-// import { Input } from "@/components/ui/input";
-// import { Textarea } from "@/components/ui/textarea";
-
 import {
   Card,
   CardContent,
@@ -64,7 +61,7 @@ export default function Page() {
               </li>
               <li>
                 <a
-                  href="#contact"
+                  href="mailto:lpfisabell@gmail.com"
                   className="hover:text-yellow-300 transition-colors"
                 >
                   Contact
@@ -86,7 +83,7 @@ export default function Page() {
               size="lg"
               className="bg-yellow-400 text-blue-800 hover:bg-yellow-500"
             >
-              Take your first step now!
+              Get your daily study materials!
             </Button>
           </div>
         </section>

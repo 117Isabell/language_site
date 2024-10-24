@@ -17,7 +17,7 @@ To run this project locally, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/chinese-language-tutor.git
+   git clone git@github.com:117Isabell/language_site.git
    ```
 
 2. Navigate to the project directory:

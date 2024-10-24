@@ -61,8 +61,10 @@ export default function Page() {
               </li>
               <li>
                 <a
-                  href="mailto:lpfisabell@gmail.com"
+                  href="/contact"
                   className="hover:text-yellow-300 transition-colors"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   Contact
                 </a>

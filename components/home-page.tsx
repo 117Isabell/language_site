@@ -40,9 +40,21 @@ export default function Page() {
     <div className="min-h-screen flex flex-col bg-blue-50">
       <header className="bg-blue-600 text-white py-4 sticky top-0 z-10">
         <div className="container mx-auto flex justify-between items-center">
-          <h1 className="text-2xl font-bold">Chinese Language Tutor</h1>
+          <h1 className="text-2xl font-bold">
+            <a href="/" className="text-2xl font-bold">
+              Chinese Language Tutor
+            </a>
+          </h1>
           <nav>
             <ul className="flex space-x-4">
+              <li>
+                <a
+                  href="https://www.facebook.com/Chineselearningwithme/events"
+                  className="bg-yellow-400 text-blue-800 hover:bg-yellow-500 px-3 py-1 rounded-full transition-colors"
+                >
+                  Free Online Meetups
+                </a>
+              </li>
               <li>
                 <a
                   href="#services"
@@ -81,12 +93,18 @@ export default function Page() {
               Learn Chinese with a Professional Tutor
             </h2>
             <p className="text-xl mb-8">Personalized lessons for all levels</p>
-            <Button
-              size="lg"
-              className="bg-yellow-400 text-blue-800 hover:bg-yellow-500"
+            <a
+              href="https://www.youtube.com/@learnchinesewithisabell1514"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              Get your daily study materials!
-            </Button>
+              <Button
+                size="lg"
+                className="bg-yellow-400 text-blue-800 hover:bg-yellow-500"
+              >
+                Get your daily study materials!
+              </Button>
+            </a>
           </div>
         </section>
 

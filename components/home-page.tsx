@@ -1,3 +1,5 @@
+"use client";
+
 import { Button } from "@/components/ui/button";
 import {
   Card,
@@ -7,6 +9,7 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { Users, User } from "lucide-react";
+import { Footer } from "./footer";
 
 export default function Page() {
   const testimonials = [
@@ -213,14 +216,7 @@ export default function Page() {
         </section>
       </main>
 
-      <footer className="bg-blue-800 text-white py-8">
-        <div className="container mx-auto text-center">
-          <p>
-            &copy; {new Date().getFullYear()} Chinese Language Tutor. All rights
-            reserved.
-          </p>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 }

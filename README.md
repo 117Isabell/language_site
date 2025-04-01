@@ -49,4 +49,4 @@ To run this project locally, follow these steps:
 
 ## Deployment
 
-The website is deployed and can be accessed at: [https://language-site-six.vercel.app/](https://language-site-six.vercel.app/)
+The website is deployed and can be accessed at: [https://languagelearningwithisabell.vercel.app/](https://languagelearningwithisabell.vercel.app/)

@@ -37,14 +37,6 @@ export function Header() {
                 Blogs
               </a>
             </li>
-            <li>
-              <Link
-                href="/contact"
-                className="hover:text-yellow-300 transition-colors"
-              >
-                Contact
-              </Link>
-            </li>
             <li className="relative group">
               <button className="hover:text-yellow-300 transition-colors">
                 Textbooks
@@ -67,6 +59,14 @@ export function Header() {
                   For Adults
                 </Link>
               </div>
+            </li>
+            <li>
+              <Link
+                href="/contact"
+                className="hover:text-yellow-300 transition-colors"
+              >
+                Contact
+              </Link>
             </li>
           </ul>
         </nav>

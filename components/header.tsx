@@ -38,26 +38,30 @@ export function Header() {
             <li className="flex justify-center">
               <a
                 href="https://www.facebook.com/Chineselearningwithme/events"
-                className="bg-yellow-400 text-blue-800 hover:bg-yellow-500 px-3 py-1 rounded-full transition-colors inline-block w-auto text-center"
+                className="bg-yellow-400 text-blue-800 hover:bg-yellow-500 px-3 py-1 rounded-full transition-colors inline-block w-auto"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 Free Online Meetups
               </a>
             </li>
             <li>
-              <a
-                href="#services"
+              <Link
+                href="/#services"
                 className="hover:text-yellow-300 transition-colors block text-center"
+                onClick={() => setIsMenuOpen(false)}
               >
                 Services
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="#blog"
+              <Link
+                href="/#blog"
                 className="hover:text-yellow-300 transition-colors block text-center"
+                onClick={() => setIsMenuOpen(false)}
               >
                 Blogs
-              </a>
+              </Link>
             </li>
             <li className="relative group">
               <button className="hover:text-yellow-300 transition-colors w-full text-center">
@@ -70,12 +74,14 @@ export function Header() {
                 <Link
                   href="/textbooks/children"
                   className="block px-4 py-2 text-sm hover:bg-gray-100 text-blue-800"
+                  onClick={() => setIsMenuOpen(false)}
                 >
                   For Children
                 </Link>
                 <Link
                   href="/textbooks/adults"
                   className="block px-4 py-2 text-sm hover:bg-gray-100 text-blue-800"
+                  onClick={() => setIsMenuOpen(false)}
                 >
                   For Adults
                 </Link>
@@ -85,6 +91,7 @@ export function Header() {
               <Link
                 href="/contact"
                 className="hover:text-yellow-300 transition-colors block text-center"
+                onClick={() => setIsMenuOpen(false)}
               >
                 Contact
               </Link>
